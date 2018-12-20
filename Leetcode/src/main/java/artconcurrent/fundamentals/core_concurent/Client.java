@@ -21,7 +21,8 @@ public class Client {
     public Client(String name) {
         id = UUID.randomUUID().toString().replace("-","");
         this.name = name;
-        total =0;
+        // 发钱啦，默认每个账户存入1000元。
+        total =1000;
         createDate = new SimpleDateFormat("YYYY-MM-DD").format(new Date());
         // 用户请求创建账户后，给用户返回唯一的id，用户可以据此查询。
         System.out.println("your id is : "+id);
