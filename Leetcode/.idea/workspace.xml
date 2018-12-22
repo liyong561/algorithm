@@ -237,7 +237,7 @@
     <property name="SearchEverywhereHistoryKey" value="C&#9;FILE&#9;jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/Comparator.java&#10;Comparator&#9;PSI&#9;JAVA://java.util.Comparator&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545456440824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545461384128" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
