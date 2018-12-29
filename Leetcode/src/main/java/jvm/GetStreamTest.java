@@ -13,6 +13,7 @@ public class GetStreamTest {
         // System.out.println(GetStreamTest.class.getClass().getClassLoader()); oot ClassLoader加载，所以返回null
         System.out.println(A.class.getClassLoader());
         System.out.println(A.class.getClassLoader().getParent());
+        test();
     }
     public void greet(){
         System.out.println("Hello,Everyone\n");
@@ -21,7 +22,7 @@ public class GetStreamTest {
         // 发现怎么读取InputStream文件也是一个问题,其是一个bstract class,面向接口编程，is对象具体是什么对象呢?
         // java.io.ByteArrayInputStream
         //InputStream is =GetStreamTest.class.getResourceAsStream("");
-        InputStream is =GetStreamTest.class.getResourceAsStream("/static/a4.txt");
+        InputStream is =GetStreamTest.class.getResourceAsStream("/static/a44.txt");
         FileOutputStream fos =new FileOutputStream(new File("a4.txt"));
         byte[] bytes =new byte[1024];
         while (is.read(bytes)!=-1){
