@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fb710d-4683-4dc9-a0a4-9ad561097d35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/core_java/LoggingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/jvm/ClassObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/jvm/SystemGetPropertyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/resources/static/ss.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/designPattern/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/httpWeb/EventObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/myAnn/AnnotationOnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/myAnn/TestAnnotationA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/jvm/GetStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/jvm/GetStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/target/classes/production/algorithm/jvm/GetStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/target/classes/production/algorithm/jvm/GetStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/jvm/SystemGetPropertyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/jvm/SystemGetPropertyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/target/classes/production/algorithm/jvm/SystemGetPropertyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/target/classes/production/algorithm/jvm/SystemGetPropertyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,87 +22,104 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/myAnn/TestAnnotationA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9" />
+            <state relative-caret-position="465">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/myAnn/AnnotationOnMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/GetStreamTest.java">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/designPattern/ProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+            <state relative-caret-position="75">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2206">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="522" column="20" lean-forward="true" selection-start-line="522" selection-start-column="20" selection-end-line="522" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Annotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Documented.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/AccessibleObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
               <folding>
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/PathClassLoaderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/ClassObject.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/AnnotatedType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-              </folding>
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/core_java/LoggingTest.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/AnnotatedTypeVariable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/SystemGetPropertyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/resources/static/ss.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -135,8 +152,13 @@
         <option value="$PROJECT_DIR$/Leetcode/src/main/java/jvm/ClassObject.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/main/java/core_java/LoggingTest.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/main/java/jvm/ss.properties" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/jvm/SystemGetPropertyTest.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/main/java/jvm/GetStreamTest.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/jvm/SystemGetPropertyTest.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/httpWeb/EventObjectTest.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/annotation/TestAnnotationA.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/myAnn/TestAnnotationA.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/myAnn/AnnotationOnMethod.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/designPattern/ProxyTest.java" />
       </list>
     </option>
   </component>
@@ -153,18 +175,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="8" />
-    <option name="y" value="99" />
-    <option name="width" value="1216" />
-    <option name="height" value="777" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1278" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,27 +230,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="GetStreamTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="PathClassLoaderTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -249,22 +249,82 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="ant-javafx.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546077996006" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chengdu_service" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546959830606" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Leetcode/src/main/resources/static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,20 +338,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SystemGetPropertyTest">
+  <component name="RunManager" selected="Application.AnnotationOnMethod">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.ClassObject" />
+    <configuration name="AnnotationOnMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myAnn.AnnotationOnMethod" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="myAnn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,8 +387,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.PathClassLoaderTest" />
+    <configuration name="SystemGetPropertyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.SystemGetPropertyTest" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -341,13 +401,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemGetPropertyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.SystemGetPropertyTest" />
+    <configuration name="TestAnnotationA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myAnn.TestAnnotationA" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="myAnn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,18 +446,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GetStreamTest" />
-      <item itemvalue="Application.PathClassLoaderTest" />
-      <item itemvalue="Application.ClassObject" />
       <item itemvalue="Application.LoggingTest" />
       <item itemvalue="Application.SystemGetPropertyTest" />
+      <item itemvalue="Application.TestAnnotationA" />
+      <item itemvalue="Application.AnnotationOnMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotationOnMethod" />
+        <item itemvalue="Application.TestAnnotationA" />
         <item itemvalue="Application.SystemGetPropertyTest" />
         <item itemvalue="Application.GetStreamTest" />
         <item itemvalue="Application.LoggingTest" />
-        <item itemvalue="Application.ClassObject" />
-        <item itemvalue="Application.PathClassLoaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -430,10 +490,10 @@
     <option name="totallyTimeSpent" value="27288000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1278" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2584814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2880259" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -441,8 +501,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48535872" visible="true" weight="0.33561644" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48535872" visible="true" weight="0.55380577" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,7 +510,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5146413" side_tool="true" weight="0.34603176" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49707174" weight="0.32739726" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4941435" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4941435" weight="0.6344086" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -497,33 +557,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/GetStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/ant-javafx.jar!/com/oracle/tools/packager/windows/javalogo_white_32.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/ant-javafx.jar!/com/oracle/tools/packager/windows/javalogo_white_48.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/ant-javafx.jar!/com/oracle/tools/packager/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1631">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/ant-javafx.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/PathClassLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/ClassObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/core_java/LoggingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/src/main/resources/static/ss.properties">
@@ -533,35 +607,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/SystemGetPropertyTest.java">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/core_java/LoggingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/PathClassLoaderTest.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/SystemGetPropertyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/jvm/GetStreamTest.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/httpWeb/EventObjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/IncompleteAnnotationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/invoke/InjectedProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/invoke/InnerClassLambdaMetafactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2302">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="76" column="35" lean-forward="true" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/classfile/Annotation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#7828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Retention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Repeatable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/AnnotationFormatError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Native.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/RetentionPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Documented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/AnnotatedType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/AnnotatedTypeVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
           <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/myAnn/TestAnnotationA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/myAnn/AnnotationOnMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2206">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="522" column="20" lean-forward="true" selection-start-line="522" selection-start-column="20" selection-end-line="522" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/designPattern/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
         </state>
       </provider>
     </entry>
