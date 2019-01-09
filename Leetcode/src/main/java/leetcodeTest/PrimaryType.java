@@ -1,4 +1,4 @@
-package leetcode;
+package leetcodeTest;
 
 public class PrimaryType {
     public static void main(String[] args) {

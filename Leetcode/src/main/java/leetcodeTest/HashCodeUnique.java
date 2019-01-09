@@ -1,7 +1,5 @@
-package leetcode;
+package leetcodeTest;
 
-import javax.print.attribute.HashDocAttributeSet;
-import java.util.Arrays;
 import java.util.HashSet;
 
 public class HashCodeUnique {

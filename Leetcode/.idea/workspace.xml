@@ -1,120 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da8dcf3a-d246-445c-9979-c8bfd8da5fc0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/AvailableProcess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/ConcurrentA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/ConcurrentTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/ConcurrentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/CoreJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/DeadLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/Interrupted$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/Interrupted$BusyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/Interrupted$SleepThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/Interrupted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/PipeIO$PrintThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/PipeIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/TV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/ThreadjJoin$ThreadArrayUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/ThreadjJoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/VolatileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/core_concurent/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/core_concurent/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/core_concurent/TransferRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artconcurrent/fundamentals/core_concurent/UnsynchBankTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Arrangement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/BigInteger01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/EightQueen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/HashCodeUnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/HashMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ListTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/PrimaryType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/SolveNQueens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/a6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/AvailableProcess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/ConcurrentA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/ConcurrentTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/ConcurrentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/CoreJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/DeadLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/Interrupted$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/Interrupted$BusyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/Interrupted$SleepThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/Interrupted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/PipeIO$PrintThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/PipeIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/TV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/ThreadjJoin$ThreadArrayUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/ThreadjJoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/VolatileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/BlockingQueueTest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/ExecutorServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/FutureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/MatchCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/MatchCounterExe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/TransferRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/artconcurrent/fundamentals/core_concurent/UnsynchBankTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/Encapsulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/FileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/GUITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/ImmutableObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/LoggingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/RegularExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/StackInterger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/WriteByMyself.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/core_java/java_special.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/designPattern/DrawRelationship.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/designPattern/WebFramework01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/httpWeb/Door.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/httpWeb/EventObjectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/httpWeb/HttpServerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/httpWeb/PersonSpeakEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/httpWeb/PersonSpeakEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/httpWeb/TomcatAndContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/jvm/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/jvm/AConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/jvm/ClassObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/jvm/GetStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/jvm/PathClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/jvm/PathClassLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/jvm/SystemGetPropertyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/jvm/a1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/Arrangement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/BigInteger01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/EightQueen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/HashCodeUnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/HashMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/ListTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/ListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/PrimaryType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/SolveNQueens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/leetcode/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/myAnn/AnnotationOnMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/myAnn/Perform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/myAnn/TestA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/myAnn/TestAA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/myAnn/TestAnnotationA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/myAnn/TestAnnotationA1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/static/a4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/production/algorithm/static/ss.properties" beforeDir="false" />
-    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +9,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeTest/BigInteger01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -142,7 +52,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="300" />
+    <option name="x" value="163" />
     <option name="y" value="27" />
     <option name="width" value="1843" />
     <option name="height" value="1413" />
@@ -152,8 +62,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,6 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547026135619" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -271,9 +182,9 @@
     <option name="totallyTimeSpent" value="1761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="27" width="1843" height="1413" extended-state="0" />
+    <frame x="163" y="55" width="1843" height="1413" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15880066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1604664" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -291,7 +202,6 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,16 +211,34 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeTest/BigInteger01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcodeTest/Arrangement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="503" column="82" selection-start-line="503" selection-start-column="82" selection-end-line="503" selection-end-column="82" />
+        <state relative-caret-position="525">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
         </state>
       </provider>
     </entry>
