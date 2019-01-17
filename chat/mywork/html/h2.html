@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/chat/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <!--只能这样加载吗？-->
+</head>
+<body>
+<p id="p3">this is the webstorm</p>
+<h2>访问model中的值</h2>
+<!--提示can't resolve title,why?关掉thymeleaf的检查-->
+
+<p id="p1">p1是原来的值</p><br>
+<p id="p2">p2原来的值</p>
+<button type="button" id="button1">改变上面的</button>
+<script>
+
+    $('#button1').click(function(){
+        alert('this is html page');
+        $("#p1").text("这是button被点击后的值");
+        $("#p2").append("对p2的补充内容，可以用在table的标签上");
+        var var1 = document.createElement("p");
+        var1.innerHTML = "document 插入新的元素";
+        var var2 = $("<div></div>").text("jQuery 增加新的标签，并填入内容");
+        $("#p1").after(var1,var2);  // 完善信息的过程，调用这个函数，没有什么复杂逻辑
+    });
+</script>
+</body>
+</html>

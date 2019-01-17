@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Good Thymes Virtual Grocery</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all"
+          href="/chat/css/bootstrap.css" />
+    <script src="/chat/js/jquery-3.3.1.min.js"></script>
+    <script src="/chat/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+<p>这个页面主要是为了展示table界面，table在展示列表信息使用很多</p>
+<table id="table1" class="table">
+    <tr>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>职业</th>
+        <th>国籍</th>
+        <th>简介</th>
+        <th>其他书籍</th>
+    </tr>
+    <tr id="tr1">
+        <td>liyong</td>
+        <td>23</td>
+        <td>作家1</td>
+        <td>美国</td>
+        <td>对现实生活不满意，游戏玩的很烂，但是又想玩，终于知道自己很菜了，所以我也不想玩了，代码写的很少，又慢，所以得专心练剑</td>
+        <td>在丽江生活等</td>
+    </tr>
+</table>
+<button type="button" id="button1">点击我，表格将发生变化</button>
+<script>
+    // {}表示对象，可以用.来访问，[]表示数组对象
+
+    $("#button1").click(function(){
+
+        $.ajax({
+            url: "http://localhost:8080/bookAuthor/select",
+            type: "json",
+            success:
+                function(data){
+                    for (var i = 0; i < data.length; i++) {
+                        var trTemp = $("<tr></tr>");
+                        trTemp.append("<td>" + data[i].name + "</td>");
+                        trTemp.append("<td>" + data[i].age + "</td>");
+                        trTemp.append("<td>" + data[i].country + "</td>");
+                        trTemp.append("<td>" + data[i].job + "</td>");
+                        trTemp.append("<td>" + data[i].intro + "</td>");
+                        trTemp.append("<td>" + data[i].otherBooks + "</td>");  //有ide提示和没有IDE的提示。trTemp.append("<td>"+dataArray[i].otherBooks"+<td>");
+                        $("#table1").append(trTemp);
+                    }
+                }
+        });
+        });
+</script>
+</body>
+
+</html>

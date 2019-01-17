@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/chat/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/chat/css/bootstrap.css">
+    <!--只能这样加载吗？-->
+</head>
+<body>
+<p>这个页面主要是为了展示table界面，table在展示列表信息使用很多</p>
+<table id="table1" class="table">
+    <tr>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>职业</th>
+        <th>国籍</th>
+        <th>简介</th>
+        <th>其他书籍</th>
+    </tr>
+    <tr id="tr1">
+        <td>liyong</td>
+        <td>23</td>
+        <td>作家1</td>
+        <td>美国</td>
+        <td>对现实生活不满意，游戏玩的很烂，但是又想玩，终于知道自己很菜了，所以我也不想玩了，代码写的很少，又慢，所以得专心练剑</td>
+        <td>在丽江生活等</td>
+    </tr>
+</table>
+<button type="button" id="button1">点击我，表格将发生变化</button>
+<script>
+    // {}表示对象，可以用.来访问，[]表示数组对象
+    var dataArray=[{"id":1,"name":"liyong","age":12,"country":"中国","job":"作家","intro":"中国富有影响力的新生代作家","otherBooks":"十年23,因为爱情"},{"id":2,"name":"liyong3","age":125,"country":"中国","job":"作家1","intro":"中国富有影响力的新生代作家","otherBooks":"十年32，因为爱情"},
+        {"id":3,"name":"liyong233","age":68,"country":"中国","job":"作家2","intro":"中国富有影响力的新生代作家","otherBooks":"十年w，因为爱情"},{"id":4,"name":"liyong33","age":12,"country":"中国","job":"作家3","intro":"中国富有影响力的新生代作家","otherBooks":"十年e，因为爱情"},{"id":5,"name":"liyong323","age":76,"country":"中国","job":"作家4","intro":"中国富有影响力的新生代作家","otherBooks":"十年32，因为爱情"},{"id":6,"name":"liyong31","age":12,"country":"中国","job":"作家5","intro":"中国富有影响力的新生代作家","otherBooks":"十年q，因为爱情"},{"id":7,"name":"liyong313","age":12,"country":"中国","job":"作家6","intro":"中国富有影响力的新生代作家","otherBooks":"十年2，因为爱情"},{"id":8,"name":"liyong911","age":22,"country":"中国","job":"作家","intro":"这是简介","otherBooks":"农民"},{"id":12,"name":"liyong333","age":12,"country":"中国","job":"他国总理","intro":"开万世之基业","otherBooks":"dfsf"}];
+
+    $("#button1").click(function(){
+        for(var i=0;i<dataArray.length;i++){
+            var trTemp = $("<tr></tr>");
+            trTemp.append("<td>"+dataArray[i].name+"</td>");
+            trTemp.append("<td>"+dataArray[i].age+"</td>");
+            trTemp.append("<td>"+dataArray[i].country+"</td>");
+            trTemp.append("<td>"+dataArray[i].job+"</td>");
+            trTemp.append("<td>"+dataArray[i].intro+"</td>");
+            trTemp.append("<td>"+dataArray[i].otherBooks+"</td>");
+            $("#table1").append(trTemp);
+        }
+        // $("table1").css("class","table");
+    });
+</script>
+</body>
+</html>
