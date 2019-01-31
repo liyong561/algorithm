@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: organizationService
+    #  这是应用程序的id
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      enabled:true
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      # service_url似乎是一个
+      defaultZone: http://localhost:8761/eureka/
