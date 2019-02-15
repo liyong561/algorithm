@@ -1,6 +1,8 @@
+server:
+  port: 8763
 spring:
   application:
-    name: organizationService
+    name: service-hi
     #  这是应用程序的id
   profiles:
     active:
