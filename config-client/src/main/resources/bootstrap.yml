@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:9004/
+        # 搜寻路径，可能根据文件名来搜索，也可能是其他的匹配方法，当然也可以使用本地文件系统，自动会去哪里找
+      profile: dev
+      name: myService

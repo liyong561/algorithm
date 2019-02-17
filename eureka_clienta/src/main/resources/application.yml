@@ -5,8 +5,7 @@ spring:
     name: service-hi
     #  这是应用程序的id
   profiles:
-    active:
-      default
+    active: default
   cloud:
     config:
       enabled:true
