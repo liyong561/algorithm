@@ -8,7 +8,7 @@ import java.util.EventObject;
  * 还有事件的监听机制。
  * 回顾一下awt设计时button和actionListener的监听机制。
  */
-public class EventObjectTest  {
+public class EventObjectTest {
     public static void main(String[] args) {
     }
 }
@@ -16,8 +16,9 @@ public class EventObjectTest  {
 /**
  * use the example to understand the event
  */
-class PersonSpeakEvent extends EventObject{
+class PersonSpeakEvent extends EventObject {
     String content;
+
     //从这个构造函数的source才是我们监听的对象，EventObject只是这个Listener的桥梁。
     public PersonSpeakEvent(Object source) {
         super(source);
@@ -32,7 +33,8 @@ class PersonSpeakEvent extends EventObject{
     public String toString() {
         return super.toString();
     }
-    public void speak(String content){
+
+    public void speak(String content) {
         this.content = content;
         System.out.println(content);
     }
@@ -41,17 +43,17 @@ class PersonSpeakEvent extends EventObject{
 /**
  * EventListener也是一个标记类，没有定义任何方法。
  */
-class  PersonSpeakEventListener implements EventListener{
+class PersonSpeakEventListener implements EventListener {
 
 }
-class Door{
+
+class Door {
     boolean state;
 
     public boolean isState() {
-        if(state == true){
+        if (state == true) {
             System.out.println("the door opened");
-        }
-        else {
+        } else {
             System.out.println("the door close");
         }
         return state;
