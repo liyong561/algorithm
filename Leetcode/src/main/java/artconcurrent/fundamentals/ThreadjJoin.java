@@ -21,7 +21,10 @@ public class ThreadjJoin {
         Thread thread;
         ThreadArrayUnit(int i,Thread thread){
             this.i =i;
-            // 一个对象持有另一个对象的引用
+            /** 一个对象持有另一个对象的引用
+             * 很神奇，通过这样，实现了两个线程的先后关系。
+             * 比如说我要吃饭，我得启动做饭的线程，并且等待其返回（做完饭)
+             */
             this.thread = thread;
         }
 

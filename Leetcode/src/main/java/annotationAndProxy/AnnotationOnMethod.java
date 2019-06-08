@@ -1,4 +1,4 @@
-package myAnn;
+package annotationAndProxy;
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Retention;

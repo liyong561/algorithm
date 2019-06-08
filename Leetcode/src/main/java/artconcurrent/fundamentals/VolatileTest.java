@@ -10,12 +10,13 @@ public class VolatileTest {
     private static TV tv =new TV(123,"television",32.238f);
     public static void main(String[] args) {
         Thread thread1 =new Thread(()->{
+            /* Runnable接口名和run方法的名字都不要，只保留了类似的方法的名字*/
            tv.setFactoryId(456);
            tv.setName("television01");
             System.out.println("thread1 output:"+tv.getFactoryId()+","+tv.getName());
         });
         Thread thread2 = new Thread(()->{
-            TV tv1 =tv;  //先获得该引用。
+            TV tv1 =tv;  //该线程可以看到线程外的对象，先获得该引用。
             try {
                 Thread.sleep(1000);// 静态方法
                 // Thread.currentThread().sleep(1000);
@@ -32,7 +33,7 @@ public class VolatileTest {
 
 }
 /**
- * jdk中的类差不多都是工具类，少有实体类,找了一些也没找到。
+ * jdk中的类差不多都是工具类，少有实体类,找了一些也没找到,要自己创建。
  */
 class TV{
     private volatile int factoryId;

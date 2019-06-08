@@ -16,6 +16,7 @@ public class Interrupted {
         }catch (InterruptedException e){
             // sleep, 让两个子线程充分运行。
         }
+        /* 给线程发送中断命令，线程如果响应中断，不久后就会退出*/
         sleepThread.interrupt();
         busyThread.interrupt();
         System.out.println("Sleep Thread interrupted is "+sleepThread.isInterrupted());
