@@ -1,5 +1,7 @@
 package entity;
 
+import com.sun.istack.internal.NotNull;
+
 /**
  * 链表的节点
  */
@@ -8,7 +10,7 @@ public class Node<T> {
     T a;
     Node next;
 
-    public Node(T a) {
+    public Node(@NotNull T a) {
         this.a = a;
     }
 

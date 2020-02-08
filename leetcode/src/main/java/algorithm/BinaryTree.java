@@ -11,13 +11,14 @@ public class BinaryTree {
 /**
  * 二叉树最基本的节点类，作为节点对象，则有数组合链表（指针)两种结构来存储树结构，理解一下树结构的特点。
  * 关键left和right的指向。
+ * 这是一个自制的对象。
  */
 class Node {
     public Node(Person p) {
         this.p = p;
     }
 
-    Person p;
+    Person p; // 只有这一个成员
 
     private Node left;
     private Node right;
